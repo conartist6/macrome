@@ -1,7 +1,7 @@
 const { resolve } = require('path');
 const stripAnsi = require('strip-ansi');
 
-const { run, hasOutput, outputLines } = require('../../lib/utils/shell');
+const { run, hasOutput, outputLines } = require('../lib/utils/shell');
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
